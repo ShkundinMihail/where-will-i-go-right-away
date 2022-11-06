@@ -6,7 +6,6 @@
     object-position: center;
     justify-self: right;
     padding-right: 100px;
-    opacity: 1;
 
 }
 
@@ -18,13 +17,12 @@
 
 @keyframes pic-intro {
     from {
-        opacity: 1;
+    
         scale: 1;
     }
 
     to {
-        opacity: 0.9;
-        scale: 0.99;
+        scale: 1.05;
     }
 }
 
