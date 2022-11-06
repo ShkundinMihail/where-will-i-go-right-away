@@ -4,10 +4,32 @@
     line-height: 0.5;
     font-weight: 700;
     z-index: 1;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    -ms-animation: flip 2s infinite;
+    -o-animation: flip 2s infinite;
+    -webkit-animation: flip 2s infinite;
+}
+
+@keyframes flip {
+    0%, 80% {
+        transform: rotateY(360deg)
+    }
 }
 
 .footer:hover .footer__copyright {
-    animation: 1s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+    animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+    -o-animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+    -ms-animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+    -webkit-animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+    animation-name: rotation-reduction;
+}
+
+.footer:touch-action .footer__copyright {
+    animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+    -o-animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+    -ms-animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+    -webkit-animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
     animation-name: rotation-reduction;
 }
 
@@ -15,10 +37,16 @@
     from {
         rotate: 0;
         scale: 1;
+        -ms-scale: 1;
+        -o-scale: 1;
+        -webkit-scale: 1;
     }
 
     to {
         rotate: -360deg;
         scale: 0;
+        -ms-scale: 0;
+        -o-scale: 0;
+        -webkit-scale: 0;
     }
 }
