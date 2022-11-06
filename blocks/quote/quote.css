@@ -7,4 +7,24 @@
     list-style: none;
     text-align: start;
     gap: 20px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 911px){
+    .quote {
+        width: 100%;
+        max-width: 45%;
+        justify-content: left;
+        margin-right: auto;
+        gap: 17px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .quote {
+        width: 100%;
+        max-width: 150px;
+        justify-content: left;
+        gap: 10px;
+    }
 }

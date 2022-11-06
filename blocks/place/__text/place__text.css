@@ -4,3 +4,31 @@
     line-height: 1.2;
     font-weight: 400;
 }
+
+.place__text:last-child {
+    padding-bottom: 80px;
+}
+
+.place__text:nth-child(3n) {
+    padding-bottom: 63px;
+}
+
+@media screen and (max-width: 767px){
+    .place__text:last-child {
+        padding-bottom: 30px;
+    }
+
+    .place__text:nth-child(3n) {
+        padding-bottom: 27px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .place__text:last-child {
+        padding-bottom: 60px;
+    }
+    
+    .place__text:nth-child(3n) {
+        padding-bottom: 37px;
+    }
+}

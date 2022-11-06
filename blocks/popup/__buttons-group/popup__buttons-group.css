@@ -1,0 +1,20 @@
+.popup__buttons-group {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    max-width: 70%;
+}
+
+@media screen and (max-width: 500px) {
+    .popup__buttons-group {
+        gap: 25px;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 446px) {
+.popup__buttons-group {
+    gap: 20px;
+    max-width: 90%;
+    }
+}

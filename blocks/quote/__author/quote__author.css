@@ -1,6 +1,9 @@
 .quote__author {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     line-height: 1.2;
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-style: normal;
 }

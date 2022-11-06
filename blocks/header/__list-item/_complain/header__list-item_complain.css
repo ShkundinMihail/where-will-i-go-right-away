@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px){
+    .header__list-item_complain{
+        text-align: left;
+        justify-self: left;
+    }
+}

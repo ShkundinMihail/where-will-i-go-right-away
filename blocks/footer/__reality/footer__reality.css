@@ -1,0 +1,29 @@
+.footer__reality {
+    margin: 0;
+    font-size: 2.5rem;
+    line-height: 0.5;
+    font-weight: 700;
+    z-index: 1;
+    scale: 0;
+}
+
+.footer:hover .footer__reality {
+    animation: 1s linear 1s both;
+    animation-name: popup-text;
+    scale: 1;
+}
+
+@keyframes popup-text {
+    0% {
+        scale: 1;
+    }
+
+    50% {
+        rotate: 0;
+    }
+
+    to {
+        scale: 0;
+        rotate: 360deg;
+    }
+}

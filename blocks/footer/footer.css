@@ -5,4 +5,43 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 911px) {
+    .footer {
+        min-height: 500px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .footer {
+        min-height: 300px;
+    }
+
+
+}
+
+.footer:hover {
+    animation: 1.5s linear 1.5s both;
+    animation-name: block;
+
+}
+
+@keyframes block {
+    from {
+        background-color: #fecda7;
+    }
+
+    to {
+        width: 70%;
+        border-radius: 100%;
+        background-color: white;
+       /* background-image: url(../../images/1400x0-4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;*/
+
+    }
 }

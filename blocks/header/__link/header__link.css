@@ -3,6 +3,50 @@
     line-height: 1;
     font-weight: 700;
     text-decoration: none;
-    text-align: center;
+    text-align: left;
     color: black;
+}
+
+.header__link:hover {
+    opacity: 0.8;
+}
+
+.header__link:active {
+    opacity: 0.7;
+}
+
+.header__list-item_complain{
+    text-align: right;
+    justify-self: right;
+    grid-column: -1;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.header__list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-width: 1280px;
+    width: 100%;
+    display: grid;
+    column-gap: 40px;
+    box-sizing: border-box;
+    grid-template-columns: repeat(auto-fill, minmax(0,min-content)) minmax(min-content,70%);
+    justify-items:  left;
+}
+
+.header__list-item{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px){
+    .header__link{
+        color: white;
+        font-size: 35px;
+    }
 }

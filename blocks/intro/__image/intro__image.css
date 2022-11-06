@@ -1,9 +1,29 @@
 .intro__image {
     max-width: 365px;
     width: 100%;
-    max-height: 365px;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     object-position: center;
+    justify-self: right;
+    padding-right: 100px;
+}
 
+@media screen and (max-width: 1124px){
+    .intro__image {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .intro__image {
+        max-width: 500px;
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width: 445px){
+    .intro__image {
+        width: 100%;
+        justify-self: center;
+    }
 }

@@ -1,0 +1,23 @@
+.place__text-block{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 45px;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1020px){
+    .place__text-block{
+        justify-content: center;
+        gap: 42px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .place__text-block {
+        max-width: 100%;
+        margin-right: 0;
+        gap: 34px;
+    } 
+}
