@@ -4,14 +4,16 @@
     line-height: 0.5;
     font-weight: 700;
     z-index: 1;
-    scale: 0;
+    display: none;
+    /*scale: 0;
     -ms-scale: 0;
     -o-scale: 0;
     -webkit-scale: 0;
-    -moz-scale: 0;
+    -moz-scale: 0;*/
 }
 
 .footer:hover .footer__reality {
+    display: inline;
     animation: 1s linear 1s both;
     -ms-animation: 1s linear 1s both;
     -o-animation: 1s linear 1s both;
@@ -26,6 +28,7 @@
 }
 
 .footer:touch-action .footer__reality {
+    display: inline;
     animation: 1s linear 1s both;
     -ms-animation: 1s linear 1s both;
     -o-animation: 1s linear 1s both;
