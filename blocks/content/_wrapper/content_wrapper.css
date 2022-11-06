@@ -1,15 +1,16 @@
-.content_wrapper{
-   /* padding: 0 68px 0 68px;*/
+.content_wrapper {
+    padding: 0 68px 0 68px;
+    
 }
 
-/*@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
     .content_wrapper {
         padding: 0 38px 0 38px;
     }
 }
 
-@media screen and (max-width: 445px){
+@media screen and (max-width: 445px) {
     .content_wrapper {
         padding: 0 18px 0 18px;
     }
-}*/
+}

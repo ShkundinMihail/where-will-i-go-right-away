@@ -6,22 +6,27 @@
     object-position: center;
     justify-self: right;
     padding-right: 100px;
+    opacity: 0.9;
 }
 
-@media screen and (max-width: 1124px){
+.intro__image:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1124px) {
     .intro__image {
         padding-right: 0px;
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
     .intro__image {
         max-width: 500px;
         justify-self: center;
     }
 }
 
-@media screen and (max-width: 445px){
+@media screen and (max-width: 445px) {
     .intro__image {
         width: 100%;
         justify-self: center;

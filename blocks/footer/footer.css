@@ -28,6 +28,11 @@
     animation-name: block;
 
 }
+.footer:touch-action {
+    animation: 1.5s linear 1.5s both;
+    animation-name: block;
+
+}
 
 @keyframes block {
     from {

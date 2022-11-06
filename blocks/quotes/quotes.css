@@ -1,6 +1,5 @@
 .quotes {
-    width: 90%;
-    max-width: 1152px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
