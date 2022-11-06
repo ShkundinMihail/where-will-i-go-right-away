@@ -9,6 +9,7 @@
     -ms-animation: flip 2s infinite;
     -o-animation: flip 2s infinite;
     -webkit-animation: flip 2s infinite;
+    -moz-animation: flip 2s infinite;
 }
 
 @keyframes flip {
@@ -22,6 +23,7 @@
     -o-animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
     -ms-animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
     -webkit-animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+    -moz-animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
     animation-name: rotation-reduction;
 }
 
@@ -30,6 +32,7 @@
     -o-animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
     -ms-animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
     -webkit-animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+    -moz-animation: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
     animation-name: rotation-reduction;
 }
 
@@ -40,6 +43,8 @@
         -ms-scale: 1;
         -o-scale: 1;
         -webkit-scale: 1;
+        -moz-scale: 1;
+        -moz-scale: 1;
     }
 
     to {
@@ -48,5 +53,6 @@
         -ms-scale: 0;
         -o-scale: 0;
         -webkit-scale: 0;
+        -moz-scale: 0;
     }
 }

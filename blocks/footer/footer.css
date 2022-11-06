@@ -25,12 +25,20 @@
 
 .footer:hover {
     animation: 1.5s linear 1.5s both;
+    -o-animation: 1.5s linear 1.5s both;
+    -moz-animation: 1.5s linear 1.5s both;
+    -webkit-animation: 1.5s linear 1.5s both;
+    -ms-animation: 1.5s linear 1.5s both;
     animation-name: block;
 
 }
 
 .footer:touch-action {
     animation: 1.5s linear 1.5s both;
+    -o-animation: 1.5s linear 1.5s both;
+    -moz-animation: 1.5s linear 1.5s both;
+    -webkit-animation: 1.5s linear 1.5s both;
+    -ms-animation: 1.5s linear 1.5s both;
     animation-name: block;
 
 }
@@ -38,16 +46,16 @@
 @keyframes block {
     0% {
         background-color: #fecda7;
-        
+
     }
-    50%{
-       
-    }
+
+    50% {}
+
     100% {
         width: 70%;
         border-radius: 100%;
         background-color: white;
-       /* background-image: url(../../images/1400x0-4.jpg);
+        /* background-image: url(../../images/1400x0-4.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;    */
