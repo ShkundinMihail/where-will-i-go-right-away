@@ -6,11 +6,26 @@
     object-position: center;
     justify-self: right;
     padding-right: 100px;
-    opacity: 0.9;
+    opacity: 1;
+
 }
 
 .intro__image:hover {
-    opacity: 1;
+    animation: 1s ease-in-out both;
+    animation-name: pic-intro;
+
+}
+
+@keyframes pic-intro {
+    from {
+        opacity: 1;
+        scale: 1;
+    }
+
+    to {
+        opacity: 0.9;
+        scale: 1.05;
+    }
 }
 
 @media screen and (max-width: 1124px) {
